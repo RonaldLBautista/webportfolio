@@ -1,0 +1,88 @@
+/*CSS Reset*/
+/*Allows to easily manipulate the sizes and positioning of elements*/
+*/ {
+   Margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Google Font*/
+body {
+   font-family: 'Arial', sans-serif;
+}
+
+/*navigation bar*/
+/*1rem = 16px (default font size)*/
+/*root em*/
+nav {
+   padding: 1rem;
+   margin-bottom: 0rem;
+   border-bottom: 1px solid grays;
+   list-style-type: none;
+}
+
+/*margin*/
+/*margin is best used when creating space between elements*/
+/*padding is best used when creating space between an element's border and its content*/
+
+nav .nav, nav .nav-logo {
+   margin: 0.5rem;
+   display:inline;
+}
+
+/*intro section*/
+#intro {
+   padding-left: 10%;
+   padding-right: 10%;
+   Padding-top: 2rem;
+   padding-bottom: 3rem;
+   text-align: center;
+}
+
+.header {
+   text-align: center;
+}
+
+#intro h2, #intro p {
+   margin-bottom: 1rem;
+}
+
+
+#pre-footer h4{
+   margin-bottom: 0rem;
+   margin: 0;
+   padding: 0;
+   border:0;
+}
+
+
+#pre-footer {
+   color: white;
+   background-color: #002540;
+}
+
+#pre-footer .card-pre {
+   display: inline-block;
+   width: 20%;
+}
+
+
+/* Twitter */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.navbar-brand {
+   font-family: Arial;
+}
+
+body {
+   overflow-x: hidden;/* Hide scrollbars */
+}
+/*.overflow-x:hidden; /* Hide horizontal scrollbar */
